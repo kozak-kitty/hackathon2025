@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Jupyter & cache
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Logs & temp
+*.log
+*.tmp
+*.DS_Store
+
+# YOLO training outputs
+runs/
+!runs/detect/train3/weights/best.pt  # keep only best.pt if it's small enough
+
+# Datasets (too large for GitHub)
+dataset/
+data/
+*.zip
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment files
+.env
